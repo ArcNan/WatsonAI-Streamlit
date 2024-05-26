@@ -8,12 +8,13 @@ for accessing watsonx.ai in a .env file
 This example shows simple use cases without comprehensive prompt tuning
 """
 
-# Install the wml api your Python env prior to running this example:
-# pip install ibm-watson-machine-learning
-# pip install ibm-cloud-sdk-core
+# Install the wml and streamlit api your Python env prior to running this example:
+pip install ibm-watson-machine-learning
+pip install streamlit
+pip install ibm-cloud-sdk-core
 
 # In non-Anaconda Python environments, you may also need to install dotenv
-# pip install python-dotenv
+pip install python-dotenv
 
 # For reading credentials from the .env file
 import os
