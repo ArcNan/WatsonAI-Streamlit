@@ -40,7 +40,7 @@ url = "https://us-south.ml.cloud.ibm.com"
 
 def get_credentials():
 
-    load_dotenv(dotenv_path="TestLLM.env")
+    load_dotenv(r'TestLLM.env')
 
     # Update the global variables that will be used for authentication in another function
     globals()["api_key"] = os.getenv("api_key", None)
