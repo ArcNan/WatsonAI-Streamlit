@@ -36,7 +36,7 @@ url = "https://us-south.ml.cloud.ibm.com"
 # # These global variables will be updated in get_credentials() functions
 # watsonx_project_id = "1f67b63d-5523-4b13-8116-71dcc743ce2f"
 # # Replace with your IBM Cloud key
-# api_key = "rtvHdoH0aYutTnuHqSlIecrHbPTzGNttrtzzrWzoa0Ex"
+# api_key = "MBF4g7fxB05wZ-C4I7MwWFrrm6shT7DR753ivjPlw293"
 
 def get_credentials():
 
