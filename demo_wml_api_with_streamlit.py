@@ -33,10 +33,10 @@ from ibm_watson_machine_learning.foundation_models.utils.enums import ModelTypes
 # URL of the hosted LLMs is hardcoded because at this time all LLMs share the same endpoint
 url = "https://us-south.ml.cloud.ibm.com"
 
-# These global variables will be updated in get_credentials() functions
-watsonx_project_id = "1f67b63d-5523-4b13-8116-71dcc743ce2f"
-# Replace with your IBM Cloud key
-api_key = "rtvHdoH0aYutTnuHqSlIecrHbPTzGNttrtzzrWzoa0Ex"
+# # These global variables will be updated in get_credentials() functions
+# watsonx_project_id = "1f67b63d-5523-4b13-8116-71dcc743ce2f"
+# # Replace with your IBM Cloud key
+# api_key = "rtvHdoH0aYutTnuHqSlIecrHbPTzGNttrtzzrWzoa0Ex"
 
 def get_credentials():
 
