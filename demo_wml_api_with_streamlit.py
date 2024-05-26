@@ -8,14 +8,6 @@ for accessing watsonx.ai
 This example shows a simple generation or Q&A use case without comprehensive prompt tuning
 """
 
-# Install the wml and streamlit api your Python env prior to running this example:
-# pip install ibm-watson-machine-learning
-# pip install streamlit
-# pip install ibm-cloud-sdk-core
-
-# # In non-Anaconda Python environments, you may also need to install dotenv
-# pip install python-dotenv
-
 # For reading credentials from the .env file
 import os
 from dotenv import load_dotenv
@@ -32,11 +24,6 @@ from ibm_watson_machine_learning.foundation_models.utils.enums import ModelTypes
 
 # URL of the hosted LLMs is hardcoded because at this time all LLMs share the same endpoint
 url = "https://us-south.ml.cloud.ibm.com"
-
-# # These global variables will be updated in get_credentials() functions
-# watsonx_project_id = "1f67b63d-5523-4b13-8116-71dcc743ce2f"
-# # Replace with your IBM Cloud key
-# api_key = "MBF4g7fxB05wZ-C4I7MwWFrrm6shT7DR753ivjPlw293"
 
 def get_credentials():
 
